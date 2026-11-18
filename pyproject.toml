@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "duckdb<2",
     "marimo>=0.25.2",
+    "pandas>=3.1.1",
     "watchdog>=7.1.0",
 ]
 [tool.marimo.runtime]
