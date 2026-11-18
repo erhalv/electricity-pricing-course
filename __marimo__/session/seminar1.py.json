@@ -1,0 +1,170 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.2",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "f1ab4803c60ee908f8c0e3366c54bf87",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "c30b773a79fdf5be9632eb432372d127",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"seminar-1\">Seminar 1</h1>\n<h2 id=\"input\">input</h2>\n<ul>\n<li><marimo-tex class=\"arithmatex\">||(\\Delta f_o= {} \\text{ Hz}||)</marimo-tex></li>\n<li><marimo-tex class=\"arithmatex\">||(\\Delta f_r= 0.2 \\text{ Hz}||)</marimo-tex>\n*</li>\n</ul>\n<h2 id=\"problems\">Problems</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "c79d18747d6226b0f255d88bb5f9d5df",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='aa29cfb9-b125-0721-4352-8d6f33eaed51'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;power_plant&#92;&quot;:&#92;&quot;Berg&#92;&quot;,&#92;&quot;location&#92;&quot;:&#92;&quot;North&#92;&quot;,&#92;&quot;gain_mw_per_hz&#92;&quot;:150,&#92;&quot;installed_capacity_mw&#92;&quot;:160,&#92;&quot;base_generation_mw&#92;&quot;:145,&#92;&quot;minimal_generation_mw&#92;&quot;:55,&#92;&quot;share_of_gain&#92;&quot;:0.06},{&#92;&quot;power_plant&#92;&quot;:&#92;&quot;By&#92;&quot;,&#92;&quot;location&#92;&quot;:&#92;&quot;South&#92;&quot;,&#92;&quot;gain_mw_per_hz&#92;&quot;:200,&#92;&quot;installed_capacity_mw&#92;&quot;:190,&#92;&quot;base_generation_mw&#92;&quot;:80,&#92;&quot;minimal_generation_mw&#92;&quot;:60,&#92;&quot;share_of_gain&#92;&quot;:0.08},{&#92;&quot;power_plant&#92;&quot;:&#92;&quot;Ede&#92;&quot;,&#92;&quot;location&#92;&quot;:&#92;&quot;North&#92;&quot;,&#92;&quot;gain_mw_per_hz&#92;&quot;:250,&#92;&quot;installed_capacity_mw&#92;&quot;:230,&#92;&quot;base_generation_mw&#92;&quot;:105,&#92;&quot;minimal_generation_mw&#92;&quot;:50,&#92;&quot;share_of_gain&#92;&quot;:0.1},{&#92;&quot;power_plant&#92;&quot;:&#92;&quot;Fallet&#92;&quot;,&#92;&quot;location&#92;&quot;:&#92;&quot;North&#92;&quot;,&#92;&quot;gain_mw_per_hz&#92;&quot;:250,&#92;&quot;installed_capacity_mw&#92;&quot;:230,&#92;&quot;base_generation_mw&#92;&quot;:95,&#92;&quot;minimal_generation_mw&#92;&quot;:70,&#92;&quot;share_of_gain&#92;&quot;:0.1},{&#92;&quot;power_plant&#92;&quot;:&#92;&quot;Fj&#92;&#92;u00e4rd&#92;&quot;,&#92;&quot;location&#92;&quot;:&#92;&quot;North&#92;&quot;,&#92;&quot;gain_mw_per_hz&#92;&quot;:250,&#92;&quot;installed_capacity_mw&#92;&quot;:150,&#92;&quot;base_generation_mw&#92;&quot;:125,&#92;&quot;minimal_generation_mw&#92;&quot;:45,&#92;&quot;share_of_gain&#92;&quot;:0.1},{&#92;&quot;power_plant&#92;&quot;:&#92;&quot;Flislinge&#92;&quot;,&#92;&quot;location&#92;&quot;:&#92;&quot;South&#92;&quot;,&#92;&quot;gain_mw_per_hz&#92;&quot;:200,&#92;&quot;installed_capacity_mw&#92;&quot;:350,&#92;&quot;base_generation_mw&#92;&quot;:230,&#92;&quot;minimal_generation_mw&#92;&quot;:100,&#92;&quot;share_of_gain&#92;&quot;:0.08},{&#92;&quot;power_plant&#92;&quot;:&#92;&quot;Forsen&#92;&quot;,&#92;&quot;location&#92;&quot;:&#92;&quot;North&#92;&quot;,&#92;&quot;gain_mw_per_hz&#92;&quot;:200,&#92;&quot;installed_capacity_mw&#92;&quot;:220,&#92;&quot;base_generation_mw&#92;&quot;:100,&#92;&quot;minimal_generation_mw&#92;&quot;:75,&#92;&quot;share_of_gain&#92;&quot;:0.08},{&#92;&quot;power_plant&#92;&quot;:&#92;&quot;Hamn&#92;&quot;,&#92;&quot;location&#92;&quot;:&#92;&quot;North&#92;&quot;,&#92;&quot;gain_mw_per_hz&#92;&quot;:200,&#92;&quot;installed_capacity_mw&#92;&quot;:260,&#92;&quot;base_generation_mw&#92;&quot;:160,&#92;&quot;minimal_generation_mw&#92;&quot;:80,&#92;&quot;share_of_gain&#92;&quot;:0.08},{&#92;&quot;power_plant&#92;&quot;:&#92;&quot;Sele&#92;&quot;,&#92;&quot;location&#92;&quot;:&#92;&quot;North&#92;&quot;,&#92;&quot;gain_mw_per_hz&#92;&quot;:150,&#92;&quot;installed_capacity_mw&#92;&quot;:180,&#92;&quot;base_generation_mw&#92;&quot;:75,&#92;&quot;minimal_generation_mw&#92;&quot;:60,&#92;&quot;share_of_gain&#92;&quot;:0.06},{&#92;&quot;power_plant&#92;&quot;:&#92;&quot;Spr&#92;&#92;u00e5nget&#92;&quot;,&#92;&quot;location&#92;&quot;:&#92;&quot;North&#92;&quot;,&#92;&quot;gain_mw_per_hz&#92;&quot;:300,&#92;&quot;installed_capacity_mw&#92;&quot;:500,&#92;&quot;base_generation_mw&#92;&quot;:350,&#92;&quot;minimal_generation_mw&#92;&quot;:150,&#92;&quot;share_of_gain&#92;&quot;:0.12}]&quot;' data-total-rows='12' data-total-columns='7' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;power_plant&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;location&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;gain_mw_per_hz&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;installed_capacity_mw&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;base_generation_mw&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;minimal_generation_mw&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;share_of_gain&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SVzR",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "787bfb37a86f1187d8315e94e77fbd48",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "1e74a9f31997611e5645dce5dc7baaa0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='a2b842b2-4490-c8a4-7884-470fd0be4995'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;location&#92;&quot;:&#92;&quot;North&#92;&quot;,&#92;&quot;gain&#92;&quot;:1750.0,&#92;&quot;installed_capacity_mw&#92;&quot;:1930.0,&#92;&quot;base_generation_mw&#92;&quot;:1155.0,&#92;&quot;minimal_generation_mw&#92;&quot;:585.0,&#92;&quot;available_delta&#92;&quot;:775.0,&#92;&quot;max_installed_capacity_mw&#92;&quot;:500},{&#92;&quot;location&#92;&quot;:&#92;&quot;South&#92;&quot;,&#92;&quot;gain&#92;&quot;:750.0,&#92;&quot;installed_capacity_mw&#92;&quot;:1140.0,&#92;&quot;base_generation_mw&#92;&quot;:775.0,&#92;&quot;minimal_generation_mw&#92;&quot;:350.0,&#92;&quot;available_delta&#92;&quot;:365.0,&#92;&quot;max_installed_capacity_mw&#92;&quot;:400}]&quot;' data-total-rows='2' data-total-columns='7' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;location&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;gain&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;installed_capacity_mw&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;base_generation_mw&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;minimal_generation_mw&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;available_delta&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;max_installed_capacity_mw&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "c71d627f41b3e261d67c05f89356a8fb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='cd4bf6e2-061b-00d9-d507-6418f241d6d9'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;gain&#92;&quot;:2500.0,&#92;&quot;installed_capacity_mw&#92;&quot;:3070.0,&#92;&quot;base_generation_mw&#92;&quot;:1930.0,&#92;&quot;minimal_generation_mw&#92;&quot;:935.0,&#92;&quot;max_base_generation_mw&#92;&quot;:390}]&quot;' data-total-rows='1' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;gain&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;installed_capacity_mw&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;base_generation_mw&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;minimal_generation_mw&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;max_base_generation_mw&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kYJx",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "0e1bb638433cdb1605058405ead00c6c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><marimo-tex class=\"arithmatex\">||(\\Delta G_O = 500.0||)</marimo-tex></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "zARD",
+      "code_hash": "c08e826c58d1d995753faf1578442791",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>975.0</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "b1b20f7e1174cade069b409761d55501",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"text/plain+float:150.0\", \"text/plain+float:350.0\"]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "604e7615a9428e6905de79a0baeadaab",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ul>\n<li>Which power plants are contributing to the normal\noperation reserve and how large is then the total gain of the normal operation reserve?<ul>\n<li></li>\n</ul>\n</li>\n<li>Which power plants are contributing to the disturbance reserve and how large is then the total gain of the disturbance reserve?</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "78dd6ef608ed3edfa1b474651139ffad",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"ai-prompts\">AI Prompts</h2>\n<blockquote>\n<span class=\"paragraph\">Do you dimension normal operation reserve using delta G = (delta f)*R</span>\n<span class=\"paragraph\">and disturbance reserve from loss of the largest power plan: R = (max capacity) / (delta f)</span>\n</blockquote></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

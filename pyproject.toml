@@ -1,0 +1,13 @@
+[project]
+name = "eg2230"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb<2",
+    "marimo>=0.25.2",
+    "watchdog>=7.1.0",
+]
+[tool.marimo.runtime]
+watcher_on_save = "autorun"

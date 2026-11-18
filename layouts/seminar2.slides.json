@@ -1,0 +1,64 @@
+{
+  "type": "slides",
+  "data": {
+    "cells": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "type": "slide"
+      },
+      {
+        "type": "fragment"
+      },
+      {},
+      {},
+      {
+        "type": "slide",
+        "showCode": false
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "type": "fragment"
+      },
+      {},
+      {
+        "type": "skip"
+      },
+      {},
+      {},
+      {},
+      {},
+      {
+        "type": "fragment"
+      },
+      {},
+      {},
+      {
+        "type": "fragment"
+      },
+      {},
+      {},
+      {},
+      {
+        "type": "fragment"
+      },
+      {}
+    ],
+    "deck": {
+      "transition": "none",
+      "verticalAlign": "center"
+    }
+  }
+}

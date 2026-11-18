@@ -1,0 +1,484 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.2",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "4bbba70131cb68a5fe3e2ef867b949a7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "a78868906cc844e9bd9ff193bd1362ff",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"seminar-2\">Seminar 2</h1>\n<span class=\"paragraph\">Electricty pricing and emissions</span>\n<span class=\"paragraph\">Erik Hallberg</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "dcccf5b38730b45ad07c82113d0f767f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "fa25baddd3e6c9763b01aefb66ddbf5a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Production <marimo-ui-element object-id='bkHC-0' random-id='0ff7cd46-3ca2-3a0d-4d5a-d9ac918fb085'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Solar PV&#92;&quot;,&#92;&quot;Aland&#92;&quot;:4,&#92;&quot;Beland&#92;&quot;:1,&#92;&quot;Celand&#92;&quot;:1,&#92;&quot;Deland&#92;&quot;:4,&#92;&quot;total&#92;&quot;:10},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Wind power&#92;&quot;,&#92;&quot;Aland&#92;&quot;:40,&#92;&quot;Beland&#92;&quot;:14,&#92;&quot;Celand&#92;&quot;:21,&#92;&quot;Deland&#92;&quot;:19,&#92;&quot;total&#92;&quot;:94},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Hydro power&#92;&quot;,&#92;&quot;Aland&#92;&quot;:65,&#92;&quot;Beland&#92;&quot;:145,&#92;&quot;Celand&#92;&quot;:12,&#92;&quot;Deland&#92;&quot;:0,&#92;&quot;total&#92;&quot;:222},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Nuclear power&#92;&quot;,&#92;&quot;Aland&#92;&quot;:49,&#92;&quot;Beland&#92;&quot;:0,&#92;&quot;Celand&#92;&quot;:34,&#92;&quot;Deland&#92;&quot;:0,&#92;&quot;total&#92;&quot;:83},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Biofuels&#92;&quot;,&#92;&quot;Aland&#92;&quot;:12,&#92;&quot;Beland&#92;&quot;:0,&#92;&quot;Celand&#92;&quot;:18,&#92;&quot;Deland&#92;&quot;:10,&#92;&quot;total&#92;&quot;:40},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Coal condensing&#92;&quot;,&#92;&quot;Aland&#92;&quot;:2,&#92;&quot;Beland&#92;&quot;:0,&#92;&quot;Celand&#92;&quot;:5,&#92;&quot;Deland&#92;&quot;:3,&#92;&quot;total&#92;&quot;:10},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Natural gas&#92;&quot;,&#92;&quot;Aland&#92;&quot;:0,&#92;&quot;Beland&#92;&quot;:5,&#92;&quot;Celand&#92;&quot;:5,&#92;&quot;Deland&#92;&quot;:5,&#92;&quot;total&#92;&quot;:15}]&quot;' data-total-rows='7' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;Aland&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Beland&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Celand&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Deland&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Variable costs <marimo-ui-element object-id='bkHC-1' random-id='8e6b4506-0695-aa5a-6276-9758b5ac0518'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Solar PV&#92;&quot;,&#92;&quot;min&#92;&quot;:0,&#92;&quot;max&#92;&quot;:0,&#92;&quot;delta&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Wind power&#92;&quot;,&#92;&quot;min&#92;&quot;:20,&#92;&quot;max&#92;&quot;:30,&#92;&quot;delta&#92;&quot;:10},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Hydro power&#92;&quot;,&#92;&quot;min&#92;&quot;:30,&#92;&quot;max&#92;&quot;:50,&#92;&quot;delta&#92;&quot;:20},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Nuclear power&#92;&quot;,&#92;&quot;min&#92;&quot;:90,&#92;&quot;max&#92;&quot;:110,&#92;&quot;delta&#92;&quot;:20},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Biofuels&#92;&quot;,&#92;&quot;min&#92;&quot;:350,&#92;&quot;max&#92;&quot;:550,&#92;&quot;delta&#92;&quot;:200},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Coal condensing&#92;&quot;,&#92;&quot;min&#92;&quot;:300,&#92;&quot;max&#92;&quot;:400,&#92;&quot;delta&#92;&quot;:100},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Natural gas&#92;&quot;,&#92;&quot;min&#92;&quot;:450,&#92;&quot;max&#92;&quot;:600,&#92;&quot;delta&#92;&quot;:150}]&quot;' data-total-rows='7' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;min&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;max&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;delta&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></span></span></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "26d0e3160c77ee5a147d833b16065687",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">CO2 emissions <marimo-ui-element object-id='lEQa-0' random-id='bcf3b0ab-bb99-9cff-e99f-292849a6d210'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Solar PV&#92;&quot;,&#92;&quot;CO2 emissions [kg/MWh]&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Wind power&#92;&quot;,&#92;&quot;CO2 emissions [kg/MWh]&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Hydro power&#92;&quot;,&#92;&quot;CO2 emissions [kg/MWh]&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Nuclear power&#92;&quot;,&#92;&quot;CO2 emissions [kg/MWh]&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Biofuels&#92;&quot;,&#92;&quot;CO2 emissions [kg/MWh]&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Coal condensing&#92;&quot;,&#92;&quot;CO2 emissions [kg/MWh]&#92;&quot;:1000},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Natural gas&#92;&quot;,&#92;&quot;CO2 emissions [kg/MWh]&#92;&quot;:500}]&quot;' data-total-rows='7' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;CO2 emissions [kg/MWh]&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Consumption (+40 TWh/year export)<marimo-ui-element object-id='lEQa-1' random-id='2e719306-51d9-a270-9dbe-528abea95fbc'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Aland&#92;&quot;,&#92;&quot;value&#92;&quot;:129},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Beland&#92;&quot;,&#92;&quot;value&#92;&quot;:132},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Celand&#92;&quot;,&#92;&quot;value&#92;&quot;:82},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Deland&#92;&quot;,&#92;&quot;value&#92;&quot;:37}]&quot;' data-total-rows='4' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></span></span></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "1b7b301b624366db16f83a2edfbe436c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "c4da4ca578848251ba296ae47c569884",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"problem-a\">Problem a</h2>\n<span class=\"paragraph\">Assume that there is no price or limitation on CO2 emissions in the Landic electricity market.\nCalculate the electricity price and the total CO2 emissions per year.</span>\n<h3 id=\"we-are-looking-for\">We are looking for</h3>\n<ul>\n<li>Electricty price</li>\n<li>CO2 emissions</li>\n</ul>\n<span class=\"paragraph\">We assume a price range of (300, 450), and solve:</span>\n<marimo-tex class=\"arithmatex\">||[\n\\frac{ \\lambda  - \\beta_{\\text{coal, min}}^C }{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^C} G_{\\text{coal, max}}+\n\\frac{ \\lambda  - \\beta_{\\text{bio, min}}^C }{\\beta_{\\text{bio, max}}^C - \\beta_{\\text{bio, min}}^C}  G_{\\text{bio, max}}= 11,\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "c316c6c207756cb8335b182d894685d5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">which gives us </span>\n<marimo-tex class=\"arithmatex\">||[\\lambda = 370.0 \\text{ \u00a4/MWh} \\\\\n\\text{CO2 emissions} = 7000.0 \\text{ kton/MWh} = 7.0 \\text{ Mton/MWh} ||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "98883273d99892a5d416745abe35fdc9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"problem-b\">Problem b</h2>\n<span class=\"paragraph\">Assume that Land introduced a tax of 45 \u00a4/ton for CO2 emissions. Calculate the electricity price\nand the total CO2 emissions per year.</span>\n<h3 id=\"data\">Data</h3>\n<ul>\n<li>CO2 tax = 45 \u00a4/ton <marimo-tex class=\"arithmatex\">||(\\Rightarrow||)</marimo-tex> 0.045 \u00a4/kg</li>\n</ul>\n<h3 id=\"we-are-looking-for\">We are looking for</h3>\n<ul>\n<li>Electricity price</li>\n<li>CO2 emissions</li>\n</ul>\n<span class=\"paragraph\">We assume a price range in (300, 450) and solve</span>\n<marimo-tex class=\"arithmatex\">||[\n\\frac{ \\lambda  - (\\beta_{\\text{coal, min}}^C + \\beta^E_\\text{coal} \\tau) }{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^C} G_{\\text{coal, max}}+\n\\frac{ \\lambda  - \\beta_{\\text{bio, min}}^C }{\\beta_{\\text{bio, max}}^C - \\beta_{\\text{bio, min}}^C}  G_{\\text{bio, max}}= 11,\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "97c5259963ba9d554ab76665ece055d2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">which gives us </span>\n<marimo-tex class=\"arithmatex\">||[\\lambda = 385.0 \\text{ \u00a4/MWh} \\\\\n\\text{CO2 emissions} = 4000.0 \\text{ kton/MWh} = 4.0 \\text{ Mton/MWh} ||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "bf645a6db07efc52e63ce1265d1fa617",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"problem-c\">Problem c</h2>\n<span class=\"paragraph\">Assume that a feebate system is introduced in the Landic electricity market. The feebate system\nrequires producers to pay a fee per ton CO2 emissions and then the sum of all CO2 fees is paid back to\nthe involved power plants proportional to their share of the generation. How large must the CO2 fee be\nin order to result in any reduction of the CO2 emissions?</span>\n<h3 id=\"unkowns\">Unkowns</h3>\n<ul>\n<li>price</li>\n<li>payback</li>\n<li>CO2 emissions fee</li>\n</ul>\n<h3 id=\"constraints\">Constraints</h3>\n<ul>\n<li>less CO2</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "74f1950252ffbc1a9e363d730b059ebb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"solve-for-co2-emissions-fee\">Solve for CO2 emissions fee</h3>\n<marimo-tex class=\"arithmatex\">||[\n\\beta_{\\text{gas, min}}^C + \\beta_{\\text{gas}}^E \\varphi - \\rho \\leq\n\\beta_{\\text{coal, min}}^C + \\beta_{\\text{coal}}^E \\varphi - \\rho\n\\Rightarrow\n||]</marimo-tex><marimo-tex class=\"arithmatex\">||[\n\\beta_{\\text{gas, min}}^C + \\beta_{\\text{gas}}^E \\varphi \\leq\n\\beta_{\\text{coal, min}}^C + \\beta_{\\text{coal}}^E \\varphi\n\\Rightarrow\n||]</marimo-tex><marimo-tex class=\"arithmatex\">||[\n\\varphi \\leq \\frac{\\beta_{\\text{coal, min}}^C - \\beta_{\\text{gas, min}}^C}{\\beta_{\\text{gas}}^E - \\beta_{\\text{coal}}^E} = 0.3 \\text{ \u00a4/kg}\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "9b5a2551ab293228ed09ff8dd8636691",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "7fb6f149b103a0494c635146d8292fd3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">We assume a price range of (300, 600) and get the following equations</span>\n<marimo-tex class=\"arithmatex\">||[\n\\frac{ \\lambda  - (\\beta_{\\text{gas, min}}^C + \\beta_{\\text{gas}}^E \\varphi - \\rho)}{\\beta_{\\text{gas, max}}^C - \\beta_{\\text{gas, min}}^C} G_{\\text{gas, max}} +\n\\frac{ \\lambda  - (\\beta_{\\text{coal, min}}^C + \\beta_{\\text{coal}}^E \\varphi - \\rho)}{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^C} G_{\\text{coal, max}}+\\\\\n\\frac{ \\lambda  - \\beta_{\\text{bio, min}}^C }{\\beta_{\\text{bio, max}}^C - \\beta_{\\text{bio, min}}^C}  G_{\\text{bio, max}}= 11,\n||]</marimo-tex><marimo-tex class=\"arithmatex\">||[\n    \\varphi \\big (\\beta_{\\text{gas}}^E  \\frac{ \\lambda  - (\\beta_{\\text{gas, min}}^C + \\beta_{\\text{gas}}^E \\varphi - \\rho)}{\\beta_{\\text{gas, max}}^C - \\beta_{\\text{gas, min}}^C} G_{\\text{gas, max}}+\n    \\beta_{\\text{coal}}^E \\frac{ \\lambda  - (\\beta_{\\text{coal, min}}^C + \\beta_{\\text{coal}}^E \\varphi - \\rho)}{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^C}G_{\\text{coal, max}} \\big) \\\\\n    =\n    \\rho \\big (\\frac{ \\lambda  - (\\beta_{\\text{gas, min}}^C + \\beta_{\\text{gas}}^E \\varphi - \\rho)}{\\beta_{\\text{gas, max}}^C - \\beta_{\\text{gas, min}}^C} G_{\\text{gas, max}}+\n    \\frac{ \\lambda  - (\\beta_{\\text{coal, min}}^C + \\beta_{\\text{coal}}^E \\varphi - \\rho)}{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^C} G_{\\text{coal, max}}\\big),\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "94d659b31bc9952ddac86cc6e3720762",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "3eab812b542a5f9e2e22d91f4337dd06",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">By solving the equations we get two candidates:</span>\n<span class=\"paragraph\">Solution 1: </span>\n<marimo-tex class=\"arithmatex\">||[\n \\lambda_1 = 390.0 \\text{ \u00a4/MWh}\\\\\n \\rho_1 = 225.0 \\text{ \u00a4/MWh}\\\\\n \\varphi = 0.3\\text{ \u00a4/kg} \\\\\n\\text{CO2 emissions} = 2250 \\text{ kton/MWh}\n||]</marimo-tex><span class=\"paragraph\">Solution 2: </span>\n<marimo-tex class=\"arithmatex\">||[\n \\lambda_2 = 405.0 \\text{ \u00a4/MWh} \\\\\n \\rho_2 = 195.0 \\text{ \u00a4/MWh}\\\\\n \\varphi = 0.3\\text{ \u00a4/kg} \\\\\n \\text{CO2 emissions} = 0 \\text{ kton/MWh}\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "fd1a8cadeeb87acef5fd770a8f73c1f3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "+++ Price 390.000000000000 CO2 fee 0.3 Payback 225.000000000000 +++\nGeneration 8.00000000000000 1.50000000000000 1.50000000000000\nPayout balance 675.000000000000 675.000000000000\nEmissions 2250.00000000000\n+++ Price 405.000000000000 CO2 fee 0.3 Payback 195.000000000000 +++\nGeneration 11.0000000000000 0 0\nPayout balance 0 0\nEmissions 0\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "f298044067274c10090ff7f21cf31676",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "f2e825c9c5a51488b302d8fbb590bf0a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"problem-d\">Problem d</h2>\n<span class=\"paragraph\">Assume that tradable green certificates are introduces in the Landic electricity market. Green\ncertificates are issued for electricity generation from solar PV, wind power and biofuels. The penalty fee\nfor missing certificates is 1 000 \u00a4/MWh. How high must the quota for green certificates be in order to\nreduce the emissions to 5 Mton/year? What will the electricity price and price of green certificates\nbecome with this quota</span>\n<h3 id=\"data\">Data</h3>\n<ul>\n<li>Penalty fee = 1000 EUR/MWh</li>\n<li>Total emissions = 5 Mton / year</li>\n<li>Participating sources = Solar PV, wind power and biofuels</li>\n</ul>\n<h3 id=\"we-are-looking-for\">We are looking for</h3>\n<ul>\n<li>Quota for green certificates</li>\n<li>Electricity price</li>\n<li>Green certificate price</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "454f9b0662db9d4c8d23701965d4d683",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Assume price between (300, 450) EUR/MWh</span>\n<marimo-tex class=\"arithmatex\">||[\n    G_{\\text{solar, max}} + G_{\\text{wind, max}} + G_{\\text{hydro, max}} + G_{\\text{nuclear, max}} +\n    G_{\\text{bio}} + G_{\\text{coal}} + G_{\\text{gas}} = 420\n||]</marimo-tex><marimo-tex class=\"arithmatex\">||[\n    G_{\\text{solar, max}} + G_{\\text{wind, max}} +  G_{\\text{bio}} = 420x,\n||]</marimo-tex><marimo-tex class=\"arithmatex\">||[\n  \\beta_{\\text{coal}}^E  \\frac{ \\lambda  - \\beta_{\\text{coal, min}}^C}{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^c} G_{\\text{coal, max}} = 5000\n||]</marimo-tex><span class=\"paragraph\">where <marimo-tex class=\"arithmatex\">||(x||)</marimo-tex> green certificate quota.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "dc6d18b61975b5cf6aa5cc01b9cbe8c6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Solving the equations gives us</span>\n<marimo-tex class=\"arithmatex\">||[\nx = 0.2619 = 26.19 \\% \\\\\n\\lambda = 350.0 \\text{ \u00a4/MWh}\\\\\n\\text{Certificate price} = 30.0 \\text{ \u00a4/MWh}\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "6da10e91d9761ff4e05041e772ce96e5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"problem-e\">Problem e</h2>\n<span class=\"paragraph\">Assume that electricity disclosure is introduced in the Landic electricity market. The demand\nfor renewable electricity (i.e., solar, wind, hydro and biofuels) is 333 TWh/year and these consumers are\nwilling to pay up to 100 \u00a4/MWh extra for renewable electricity (compared to the price of grey electricity). Calculate the electricity price for renewable electricity and grey electricity respectively as well as\nthe total CO2 emissions per year.</span>\n<h3 id=\"data\">Data</h3>\n<ul>\n<li>Renewable demand = 333 TWh/year</li>\n<li><marimo-tex class=\"arithmatex\">||(\\Delta||)</marimo-tex>Premium = 100 EUR/MWh</li>\n</ul>\n<h3 id=\"we-are-looking-for\">We are looking for</h3>\n<ul>\n<li>Renewable electricity price</li>\n<li>Grey electricity price</li>\n<li>Total CO2 emissions per year</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "0174c246139f7383bbf2856a264f4f85",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"text/plain+float:385.0\", \"text/plain+float:340.0\", \"text/plain+float:45.0\", \"text/plain+float:4000.0\", \"text/plain:87\", \"text/plain:83\", 333, \"text/plain:326\"]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "ff6c42789c38c6d32493b9bb53e45dd2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Let <marimo-tex class=\"arithmatex\">||(\\lambda_g||)</marimo-tex> be the grey electricity price, assume a price range of (300, 400) =&gt; Demand = 420 - 333 - 83 =4 TWh/year</span>\n<marimo-tex class=\"arithmatex\">||[\n\\frac{ \\lambda_g  - \\beta_{\\text{coal, min}}^C }{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^C} G_{\\text{coal, max}} = 4 \\text{ TWh/year},\n||]</marimo-tex><span class=\"paragraph\">solving this gives us</span>\n<marimo-tex class=\"arithmatex\">||[\n    \\lambda_g = 340\\text{{ \u00a4/MWh}}.\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "e9e684ebefd78c7afa99dcaae6eabc05",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Let <marimo-tex class=\"arithmatex\">||(\\lambda_r||)</marimo-tex> be the renewable electricity price, assume a price range of (350, <marimo-tex class=\"arithmatex\">||(\\lambda_g + 100 = 440||)</marimo-tex>) =&gt; Demand = 333 - 326 = 7 TWh/year</span>\n<marimo-tex class=\"arithmatex\">||[\n\\frac{ \\lambda_r  - \\beta_{\\text{bio, min}}^C }{\\beta_{\\text{bio, max}}^C - \\beta_{\\text{bio, min}}^C} G_{\\text{bio, max}} = 7\\text{ TWh/year}\n||]</marimo-tex><span class=\"paragraph\">solving this gives us</span>\n<marimo-tex class=\"arithmatex\">||[\n    \\lambda_r = 385.\\text{{ \u00a4/MWh}}\n||]</marimo-tex><span class=\"paragraph\">And finally the total emisssions per year in this case are</span>\n<marimo-tex class=\"arithmatex\">||[\n    \\text{CO2 emissions} = 4 \\text{ Mton/year}\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "371fef7bc0ca5af84dcf9c81b896d176",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"problem-f\">Problem f</h3>\n<span class=\"paragraph\">Assume that tradable emission rights are introduced in the Landic electricity market.\nThe penalty fee for emitting 1 ton CO2 without holding an emission right is set to 1 000 \u00a4/ton.\nThe number of emission rights is set to 3.5 Mton/year. Calculate the electricity price and the price of emission rights.</span>\n<h3 id=\"data\">Data</h3>\n<ul>\n<li>Penalty fee = 1000 \u00a4/ton</li>\n<li>Number of emission rights = 3.5 Mton/year</li>\n</ul>\n<h3 id=\"we-are-looking-for\">We are looking for</h3>\n<ul>\n<li>Electricity price</li>\n<li>Price of the emission rights</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "9a51eaba57e4f7f8d73ff3d89bdb5c2f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Assume that the emissions are equal to the cap <marimo-tex class=\"arithmatex\">||(\\Rightarrow \\xi &lt; 1000||)</marimo-tex>, further assume a price range of (300, 450).</span>\n<marimo-tex class=\"arithmatex\">||[\n\\frac{ \\lambda  - (\\beta_{\\text{coal, min}}^C + \\xi )}{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^C} G_{\\text{coal, max}}+\n\\frac{ \\lambda  - \\beta_{\\text{bio, min}}^C }{\\beta_{\\text{bio, max}}^C - \\beta_{\\text{bio, min}}^C}  G_{\\text{bio, max}}= 11\n||]</marimo-tex><marimo-tex class=\"arithmatex\">||[\n    \\beta_{\\text{coal}}^E \\frac{ \\lambda  - (\\beta_{\\text{coal, min}}^C + \\xi )}{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^C}G_{\\text{coal, max}}\n    = 3500\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xXTn",
+      "code_hash": "1895100f3cf9538a6bd37343b76a858b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Solving the equations gives us</span>\n<marimo-tex class=\"arithmatex\">||[\n    \\lambda = 387.5 \\text{ \u00a4/MWh} \\\\\n    \\xi = 52.5 \\text{ \u00a4/MWh}.\\\\\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "AjVT",
+      "code_hash": "ca22136f8cfff9bd0ec926c9d27a6747",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pHFh",
+      "code_hash": "7e3c1bdc4621c2d5c777dbfdb17f6e33",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"problem-g\">Problem g</h2>\n<span class=\"paragraph\">Suggest another method besides tradable emission rights that can reduce the emissions from\nthe Landic electricity market to 3.5 Mton/year. Calculate the electricity price and any other relevant\nparameters for your market design.</span>\n<h3 id=\"suggestion-co2-tax-we-need-to-solve\">Suggestion: CO2-tax =&gt; we need to solve:</h3>\n<span class=\"paragraph\">Price assumption (300, 450)</span>\n<marimo-tex class=\"arithmatex\">||[\n\\frac{ \\lambda  - (\\beta_{\\text{coal, min}}^C + \\beta_{\\text{coal}}^E \\tau)}{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^C} G_{\\text{coal, max}}+\n\\frac{ \\lambda  - \\beta_{\\text{bio, min}}^C }{\\beta_{\\text{bio, max}}^C - \\beta_{\\text{bio, min}}^C}  G_{\\text{bio, max}}= 11\n||]</marimo-tex><marimo-tex class=\"arithmatex\">||[\n \\beta_{\\text{coal}}^E \\frac{ \\lambda  - (\\beta_{\\text{coal, min}}^C + \\beta_{\\text{coal}}^E \\tau)}{\\beta_{\\text{coal, max}}^C - \\beta_{\\text{coal, min}}^C} G_{\\text{coal, max}}\n= 3500\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "NCOB",
+      "code_hash": "746eb43381290760c3298d689b354802",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><marimo-tex class=\"arithmatex\">||[\\lambda= 387.5 \\text{ \u00a4/MWh}||]</marimo-tex><marimo-tex class=\"arithmatex\">||[\\tau= 0.0525 \\text{ \u00a4/kg} ||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aqbW",
+      "code_hash": "96a874ceeb99c10dc294770521c9d6cf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"problem-h\">Problem h</h2>\n<span class=\"paragraph\">In this question you will need to use the excel workbook <code>Nordic price</code> to analyse the Nordic\nelectricity market. The model itself is found on the first sheet (\u201cOverview\u201d). Additional data, sources\nand calculations are found on the other two sheets. For this problem, you will however only need to edit\nthe blue fields in the overview. The model will use the simple price model explained in the lectures on\nelectricity pricing for a rough estimate of the Nordic electricity price.\nThe default data in the model is for 2019, which was a fairly average year in terms of hydro inflow.\nWhich electricity prices would be obtained if 2019 had been a wet year (75 TWh hydro power in Swe-\nden, 140 TWh in Norway and 16 TWh in Finland) or a dry year (55 TWh hydro power in Sweden,\n110 TWh in Norway and 12 TWh in Finland). Compare the impact of hydro inflow on electricity prices\nto the impact if the fifth Finnish nuclear power plant Olkiluoto 3 had been operational in 2019? The\nannual generation from Olkiluoto 3 is expected to be between 12 and 13 TWh/year.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TRpd",
+      "code_hash": "65d23ae0ee39fc20e1ea43f59985ef0f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"problem-h\">Problem h</h2>\n<h3 id=\"price-if-it-was-a-wet-year\">Price if it was a wet year</h3>\n<ul>\n<li>Hydro power: Sweden 75 TWh, Norway 140 TWh and Finland 16 TWh</li>\n<li>The model gives =&gt; 317.10 kr /MWh</li>\n</ul>\n<h3 id=\"price-if-it-was-a-dry-year\">Price if it was a dry year</h3>\n<ul>\n<li>Hydro power: Sweden 55 TWh, Norway 110 TWh and Finland 12 TWh</li>\n<li>The model gives =&gt; 472.92 kr /MWh</li>\n</ul>\n<h3 id=\"impact-of-hydro-inflow-if-olkiluoto-3-had-been-operational-in-2019\">Impact of Hydro inflow if Olkiluoto 3 had been operational in 2019</h3>\n<ul>\n<li>Olkiluto 3: 12 - 13 TWh/ year =&gt; we set production to 12.5 TWh/year</li>\n<li>Wet year price =&gt; 279.02 kr/MWh</li>\n<li>Dry year price =&gt; 455.30 kr/MWh</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TXez",
+      "code_hash": "5d3cb6b520cc3fd974afce2fcaa0990f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"problem-i\">Problem i</h2>\n<span class=\"paragraph\">Table 3 shows data for hydro power generation, wind power generation and demand in the Nordic countries \nin 2020. Assume that all other data are the same as for 2019 and use the Nordic price\nmodel to estimate the electricity price. Compare the result to the average system price in the Nord Pool\nElspot market 2020, which was 114.31 SEK/MWh. Explain the difference between the result of the\nmodel and the actual average price.</span>\n<span class=\"paragraph\">Table 3:\n<marimo-ui-element object-id='TXez-0' random-id='13f42e0a-6f5b-bf6f-9455-3cf73c44c275'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Hydro power generation [TWh]&#92;&quot;,&#92;&quot;Sweden&#92;&quot;:72,&#92;&quot;Norway&#92;&quot;:142,&#92;&quot;Finland&#92;&quot;:16,&#92;&quot;Denmark&#92;&quot;:NaN},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Wind power generation [TWh]&#92;&quot;,&#92;&quot;Sweden&#92;&quot;:28,&#92;&quot;Norway&#92;&quot;:10,&#92;&quot;Finland&#92;&quot;:8,&#92;&quot;Denmark&#92;&quot;:17.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;Electricity consumption [TWh]&#92;&quot;,&#92;&quot;Sweden&#92;&quot;:127,&#92;&quot;Norway&#92;&quot;:125,&#92;&quot;Finland&#92;&quot;:81,&#92;&quot;Denmark&#92;&quot;:33.0}]&quot;' data-total-rows='3' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;Sweden&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Norway&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Finland&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Denmark&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "dNNg",
+      "code_hash": "af2000ef9ac09b1066b7dd397ab0e390",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "yCnT",
+      "code_hash": "0505b1b1907c75b2e71aca3fd821f477",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"problem-i\">Problem i</h2>\n<span class=\"paragraph\">By using the values in table 3 we get a price of 97.25 kr /MWh. Why do we get a difference?</span>\n<ul>\n<li>The model is based on the simple price model =&gt; assumptions<ul>\n<li>Perfect competition, perfect information etc..</li>\n</ul>\n</li>\n<li>Does not take into account the swedish electricty zones.</li>\n<li>2019 was a year of low prices but a also a year of big differences between the different zone [1]</li>\n<li>Trade and export data is from 2019</li>\n</ul>\n<span class=\"paragraph\">[1] \"Rekordl\u00e5ga elpriser sammanfattar el\u00e5ret 2020\", Energif\u00f6retagen <a href=\"https://www.mynewsdesk.com/se/energiforetagen/pressreleases/rekordlaaga-elpriser-sammanfattar-elaaret-2020-3062339\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.mynewsdesk.com/se/energiforetagen/pressreleases/rekordlaaga-elpriser-sammanfattar-elaaret-2020-3062339</a></span></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
