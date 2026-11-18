@@ -1,4 +1,4 @@
 __marimo__/cache/
-__marimo__/sessions/
+__marimo__/session/
 .venv/
 ~lock.*
