@@ -8,7 +8,7 @@ app = marimo.App(width="medium")
 def _():
     import marimo as mo
 
-    return
+    return (mo,)
 
 
 @app.cell
@@ -48,6 +48,35 @@ def _(pd):
     }).set_index("Scenario")
 
     thermal_power_plants, sampled_data
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Problem a
+    ![alt](public/image.png)
+    From the figure we get
+
+    \begin{equation}
+     \tilde{F_{\bar{W}}}(x) = \begin{cases}
+         1 + \frac{1 - 0.4}{0-400}x & 0 \leq x < 400 \\
+         0.8 + \frac{0.4 - 0.1}{400 - 700}x &  400 \leq x < 400 \\
+         \frac{1}{3} + \frac{0.1 - 0}{700 - 1000}x &  400 \leq x
+     \end{cases}
+     \end{equation}
+
+    The inverse is
+
+    \begin{equation}
+     \tilde{F_{\bar{W}}}^{-1}(u)
+        = \begin{cases}
+         -400/0.6 + 400u + \frac{1 - 0.4}{0-400}x & 0.4 \leq u < 1 \\
+         0.8 + \frac{0.4 - 0.1}{400 - 700}x &  400 \leq x < 400 \\
+         \frac{10}{3} + \frac{0.1 - 0}{700 - 1000}x &  400 \leq x
+     \end{cases}
+     \end{equation}
+    """)
     return
 
 
